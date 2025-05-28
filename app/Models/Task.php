@@ -25,7 +25,7 @@ class Task extends Model
      *
      * @return BelongsTo
      */
-   public function project(): BelongsTo
+   public function project()
     {
         return $this->belongsTo(Project::class);
     }

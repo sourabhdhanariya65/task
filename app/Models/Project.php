@@ -19,7 +19,7 @@ class Project extends Model
      *
      * @return HasMany
      */
-    public function tasks(): HasMany 
+    public function tasks()
     {
         return $this->hasMany(Task::class);
     }
